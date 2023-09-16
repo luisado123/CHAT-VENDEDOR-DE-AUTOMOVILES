@@ -1,0 +1,97 @@
+{
+
+"intents": [
+  {
+    "tag": "saludo",
+    "patterns": [ "Hola", "que tal", "como estas", "saludos" ],
+    "responses": [ "Hola!","¿Cómo estás?","Buenos días!" ]
+  },
+  {
+    "tag": "despedida",
+    "patterns": [ "Adiós", "Hasta luego", "Nos vemos" ],
+    "responses": [ "¡Hasta luego!", "Que tengas un buen día!", "Adiós, nos vemos pronto!" ]
+  },
+  {
+    "tag": "agradecimiento",
+    "patterns": [ "Gracias", "Muchas gracias", "Te agradezco" ],
+    "responses": [ "De nada, ¿en qué más puedo ayudarte?", "Estoy aquí para ayudarte, ¿qué necesitas?", "¡No hay problema! ¿Cómo más puedo asistirte?" ]
+  },
+  {
+    "tag": "consulta_vehiculos",
+    "patterns": [ "Necesito información sobre vehículos", "Cuéntame sobre los autos", "Información de automóviles" ],
+    "responses": [ "Claro, con gusto te proporcionaré información sobre nuestros vehículos", "Estoy aquí para ayudarte con los detalles de nuestros autos. ¿En qué estás interesado?", "Los automóviles son una parte importante de nuestra oferta. ¿Qué te gustaría saber?" ]
+  },
+  {
+    "tag": "tipos_vehiculos",
+    "patterns": [ "¿Qué tipos de vehículos tienen?", "Diferentes autos disponibles", "Variedad de coches" ],
+    "responses": [ "Ofrecemos una variedad de vehículos, incluyendo [tipos de vehículos]. ¿Tienes alguna preferencia?", "Tenemos varios tipos de autos disponibles, como [tipos de vehículos]. ¿Cuál te interesa?", "Nuestra gama de vehículos incluye [tipos de vehículos]. ¿Cuál te gustaría conocer más?" ]
+  },
+  {
+    "tag": "ventajas_vehiculos",
+    "patterns": [ "¿Cuáles son las ventajas de sus vehículos?", "Beneficios de usar sus autos", "Por qué elegir sus coches" ],
+    "responses": [ "Nuestros autos ofrecen ventajas como [ventajas de vehículos]. ¿En qué más puedo ayudarte?", "Algunas de las ventajas de nuestros vehículos son [ventajas de vehículos]. ¿Te gustaría saber más?", "Elegir nuestros autos significa disfrutar de beneficios como [ventajas de vehículos]. ¿Tienes alguna otra pregunta?" ]
+  },
+  {
+    "tag": "precio_vehiculos",
+    "patterns": [ "¿Cuál es el precio de sus vehículos?", "Dame el costo de un auto", "Precio de automóvil" ],
+    "responses": [ "El precio de nuestros vehículos varía según el modelo y las opciones. ¿Puedes decirme cuál te interesa?", "Los precios de nuestros autos dependen de las opciones que elijas. ¿Qué modelo de automóvil te gustaría cotizar?", "Para proporcionarte el precio exacto, necesito más detalles sobre el automóvil que deseas. ¿Puedes especificar?" ]
+  },
+  {
+    "tag": "financiamiento",
+    "patterns": [ "¿Ofrecen opciones de financiamiento?", "Financiamiento de autos", "Crédito automotriz" ],
+    "responses": [ "Sí, ofrecemos opciones de financiamiento para la compra de autos. ¿Te gustaría obtener más información?", "Tenemos planes de financiamiento disponibles para facilitar la compra de tu automóvil. ¿En qué más puedo ayudarte?", "Puedes optar por nuestro programa de financiamiento para obtener tu auto. ¿Quisieras saber más al respecto?" ]
+  },
+  {
+    "tag": "prueba_conduccion",
+    "patterns": [ "¿Puedo hacer una prueba de conducción?", "Probar un automóvil", "Test drive" ],
+    "responses": [ "¡Claro! Puedes programar una prueba de conducción para el modelo que te interese. ¿Cuándo te gustaría hacerlo?", "Estamos encantados de ofrecerte una prueba de conducción. ¿Qué día y hora te viene bien?", "Por supuesto, te invitamos a realizar un test drive. ¿Cuándo te gustaría venir?" ]
+  },
+  {
+    "tag": "compra_vehiculos",
+    "patterns": [ "Quiero comprar un automóvil", "Realizar una compra de autos", "¿Cómo puedo comprar un coche?" ],
+    "responses": [ "¡Perfecto! Estoy aquí para ayudarte con tu compra. ¿Qué modelo de automóvil deseas comprar?", "Genial, ¿cuál es el modelo de automóvil que te interesa?", "Listo, ¿cuál es el modelo de auto que quisieras comprar?" ]
+  },
+  {
+    "tag": "formas_pago",
+    "patterns": [ "¿Cuáles son las formas de pago?", "¿Aceptan tarjeta de crédito?", "Opciones de pago" ],
+    "responses": [ "Aceptamos tarjeta de crédito, débito y pago en efectivo como formas de pago", "Puedes pagar tu automóvil con tarjeta de crédito, débito o en efectivo", "Tenemos varias opciones de pago disponibles, incluyendo tarjeta de crédito y efectivo" ]
+  },
+  {
+    "tag": "entrega_vehiculo",
+    "patterns": [ "¿Ofrecen entrega a domicilio?", "Costo de entrega", "Plazo de entrega" ],
+    "responses": [ "Sí, ofrecemos servicio de entrega a domicilio. El costo depende de tu ubicación y el modelo de automóvil", "Tenemos servicio de entrega a domicilio disponible. El costo y el plazo de entrega varían según la ubicación y el modelo", "Ofrecemos entrega a domicilio. ¿En qué zona te encuentras? Te proporcionaré los detalles de costo y tiempo de entrega" ]
+  },
+  {
+    "tag": "garantia_vehiculos",
+    "patterns": [ "¿Ofrecen garantía en sus vehículos?", "Política de garantía", "Durabilidad de autos" ],
+    "responses": [ "Sí, nuestros autos vienen con una garantía de [duración de garantía]. ¿Te gustaría conocer más detalles?", "Estamos orgullosos de ofrecer una garantía de [duración de garantía] en nuestros autos. ¿En qué más puedo ayudarte?", "Nuestros autos están respaldados por una garantía de [duración de garantía]. ¿Tienes alguna otra pregunta?" ]
+  },
+  {
+    "tag": "atencion_cliente",
+    "patterns": [ "Necesito hablar con servicio al cliente", "Problema con mi compra de auto", "Asistencia al cliente" ],
+    "responses": [ "Lamento escuchar que tienes un problema. Estoy aquí para ayudarte. ¿En qué puedo asistirte?", "Por supuesto, con gusto te ayudaré con tu consulta. ¿Cuál es el problema?", "Estoy aquí para brindarte atención al cliente. ¿Cuál es tu pregunta o preocupación?" ]
+  },
+  {
+    "tag": "agregar_opciones",
+    "patterns": [ "¿Puedo agregar opciones adicionales a mi auto?", "Personalizar mi coche", "Añadir características extras" ],
+    "responses": [ "Sí, puedes personalizar tu auto agregando opciones adicionales. ¿Qué características te gustaría añadir?", "Claro, puedes agregar características extras a tu auto para personalizarlo según tus preferencias. ¿Qué te gustaría añadir?", "Estás en libertad de agregar opciones adicionales a tu auto. ¿Cuáles te interesan?" ]
+  },
+  {
+    "tag": "ubicacion_concesionario",
+    "patterns": [ "¿Dónde está ubicado su concesionario?", "Dirección del concesionario", "Encuentro su tienda" ],
+    "responses": [ "Nuestro concesionario está ubicado en [dirección del concesionario]", "Estamos en [dirección del concesionario]. ¿Necesitas indicaciones para llegar?", "Puedes encontrarnos en [dirección del concesionario]. ¿Hay algo más en lo que pueda ayudarte?" ]
+  },
+  {
+    "tag": "horario_concesionario",
+    "patterns": [ "¿Cuál es el horario del concesionario?", "Horario de atención", "¿Están abiertos hoy?" ],
+    "responses": [ "Nuestro horario de atención es de [horario del concesionario]", "Estamos abiertos de [horario del concesionario]. ¿Tienes alguna otra pregunta?", "Puedes visitarnos en el siguiente horario: [horario del concesionario]" ]
+  },
+  {
+    "tag": "informacion_contacto",
+    "patterns": [ "¿Cuál es su información de contacto?", "Número de teléfono del concesionario", "Correo electrónico de contacto" ],
+    "responses": [ "Nuestro número de teléfono de contacto es [número de teléfono]", "Puedes contactarnos en [correo electrónico de contacto] para cualquier consulta. ¿En qué más puedo ayudarte?", "Aquí tienes nuestra información de contacto: Teléfono: [número de teléfono] | Correo electrónico: [correo electrónico de contacto]" ]
+  }
+
+   
+  ]
+}
